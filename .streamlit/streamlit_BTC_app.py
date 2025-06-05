@@ -2,7 +2,7 @@
 # pip install streamlit
 
 import streamlit as st
-import psycopg2
+import psycopg
 import pandas as pd
 
 # Set the page configuration
@@ -10,7 +10,7 @@ import pandas as pd
 
 def get_api_data():
     dbconn = st.secrets["DBCONN"]
-    conn = psycopg2.connect(dbconn)
+    conn = psycopg.connect(dbconn)
     df = pd.read_sql("SELECT * FROM daily_prices;", conn)
     conn.close()
     return df
@@ -19,7 +19,7 @@ api_data_btc = get_api_data()
 
 def get_api_data2():
     dbconn = st.secrets["DBCONN"]
-    conn = psycopg2.connect(dbconn)
+    conn = psycopg.connect(dbconn)
     df = pd.read_sql("SELECT * FROM news;", conn)
     conn.close()
     return df
