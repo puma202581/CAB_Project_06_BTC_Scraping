@@ -5,7 +5,7 @@ import streamlit as st
 import psycopg2
 import pandas as pd
 
-dbconn = st.secrets["DBCONN"]
+# Set the page configuration
 
 
 def get_api_data():
