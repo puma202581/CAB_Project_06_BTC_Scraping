@@ -4,3 +4,4 @@ psycopg
 psycopg-binary
 numpy
 mplcursors
+plotly
