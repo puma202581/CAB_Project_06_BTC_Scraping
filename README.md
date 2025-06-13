@@ -7,7 +7,7 @@ The main targets in this project were:
 
 
 
-All in all I found this project quite taxing as I perceived the setup of the whole environment as quite complex.
+All in all, I perceived the setup of the whole environment as quite complex and hence quite taxing.
 In stark contrast to previous assignments, this project required a significant amount of debugging.    
 However I'm happy with the result. 
 I enjoyed researching into stock market analysis and which graphs to use (e.g. candle stick chart).  
