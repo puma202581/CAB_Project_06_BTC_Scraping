@@ -40,18 +40,18 @@ def get_api_data3():
 sentiment_results = get_api_data3()
 
 # Set up the Streamlit app
-# st.set_page_config(
-#     page_title="BTC Data Analysis",
-#     page_icon=":bitcoin:",
-#     layout="wide",
-#     initial_sidebar_state="expanded"
-# )
-# st.title("Bitcoin (BTC) Data Analysis App")
-# # Add a sidebar with a title and description
-# st.sidebar.title("BTC Data Analysis")
-# st.sidebar.write(
-#     "This app provides insights into Bitcoin (BTC) data, including daily prices, trade volumes, and sentiment analysis."
-# )
+st.set_page_config(
+    page_title="BTC Data Analysis",
+    page_icon=":bitcoin:",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+st.title("Bitcoin (BTC) Data Analysis App")
+# Add a sidebar with a title and description
+st.sidebar.title("BTC Data Analysis")
+st.sidebar.write(
+    "This app provides insights into Bitcoin (BTC) data, including daily prices, trade volumes, and sentiment analysis."
+)
 
 # Add a container for the main content
 with st.container():
